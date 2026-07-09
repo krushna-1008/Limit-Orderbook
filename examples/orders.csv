@@ -1,0 +1,11 @@
+# side,type,price,quantity
+BUY,GTC,100,50
+SELL,GTC,99,20
+BUY,FAK,101,100
+PRINT
+
+# Extended command form:
+# ADD,id,side,type,price,quantity
+# CANCEL,id
+# MODIFY,id,side,price,quantity
+
